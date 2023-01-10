@@ -1,10 +1,79 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>hello world</h1>
-</body>
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- 
+            1. 시멘틱한 HTML 강조(기계가 이해할 수 있는 언어, SEO, 유지보수, 협업 등)
+            2. HTML Living Standard
+            
+        -->
+        <h1>hello world</h1>
+        <h2>hello world</h2>
+        <h3>hello world</h3>
+        <h4>hello world</h4>
+        <h5>hello world</h5>
+        <h6>hello world</h6>
+				<p>H<sub>2</sub>0</p>
+        <p>x<sup>2</sup>=4</p>
+        <p>
+            <!-- 공백병합 -->
+            Lorem 
+            
+            
+            
+            ipsum <br> 
+            <br> 
+            <br> 
+            dolor sit amet
+            <hr> 
+            <a href="https://www.naver.com">click</a>
+            <a href="https://www.naver.com" target="_blank">click</a>  
+            <a href="./test.html">click</a>
+            <a href="#move">click</a>
+            <a href="./test.png" download>click</a>
+            <hr>
+            <strong>hello</strong> 
+            adipisicing <b>elit</b>. 
+            Quae <em>quisquam </em> 
+            aperiam, <i> autem </i>, excepturi 
+            <mark> corrupti </mark> architecto facilis saepe voluptatum, sit nulla quia voluptate at laudantium cupiditate iusto minima tempore consequatur!
+        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione accusantium inventore, quia, nisi natus necessitatibus, delectus consequatur eum vitae architecto numquam esse quae quasi consectetur debitis voluptatem nulla. Vero, consequatur?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione accusantium inventore, quia, nisi natus necessitatibus, delectus consequatur eum vitae architecto numquam esse quae quasi consectetur debitis voluptatem nulla. Vero, consequatur?</p>
+        <p id="move">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione accusantium inventore, quia, nisi natus necessitatibus, delectus consequatur eum vitae architecto numquam esse quae quasi consectetur debitis voluptatem nulla. Vero, consequatur?</p>
+        <!-- 
+            abbr : 준말 표현(NASA)
+            kbd : 키보드
+            pre : 있는 그대로
+            code : 코드블록
+            cite : 인용(q는 인용구, cite는 인용블록)
+        -->
+        <!-- 참고문서 1 : https://developer.mozilla.org/ko/docs/Web/HTML/Element -->
+				<!-- 참고문서 2 : html.spec.whatwg.org, multipage -->
+				<!-- docktype : 이 문서가 어떤 타입인지
+				head : 문서에 대한 문서 정보
+				body : 우리가 표현하고싶은 콘텐츠
+				h1 : 문서의 대표 제목
+				* 꼭 닫기 태그가 필요한 것은 아니다 (이미지 태그의 경우 닫을 필요가 없기 때문이다)
+				헤딩은 6까지 밖에없다
+				p: 문단을 나타낸다
+				sub, sup : 아래 첨자, 윗첨자
+				* 개행은 엔터로 하는 것이 아닌 <br>태그를 이용한다
+				<hr> : 구분선
+				<a> : 이동하게 하는 태그
+				첫번째 클릭: 사이트 이동
+				두번째 클릭: 새 창에서 사이트 이동
+				./ : 현재 폴더에 있는 파일로 이동
+				# : 같은 페이지 내에 존재하는 id를 가진 태그로 이동
+				화면안에 표시되고 있으면 이동하지 않는다
+
+				<strong>: 굵은 글자로 표기 (음성 강조)
+				<b> : "" (음성 강조 x)
+				<em> : 기울어진 글자체 (음성 강조)
+				<i> : ""(음성 강조 x)
+				<mark> : 하이라이트(css로 색 조정 가능)
+				** 문서 내에는 헤딩을 하나씩만 쓰는 것이 좋다				-->
+    </body>
 </html>
